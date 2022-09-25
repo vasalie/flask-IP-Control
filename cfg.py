@@ -4,11 +4,11 @@ PORT          = 9000
 # Enable "debug" mode for Flask
 DEBUG         = True
 
-# Enable or disable clean log
-CLEAN_LOG     = True
+# Allow IP list
+LIST_ALLOW     = ['127.0.0.1', '10.1.1.10']
 
-# This can disable logging static files requests
-HIDE_STATIC   = False
+# Block IP list
+LIST_BLOCK   = ['0.0.0.0', '0.0.0.1']
 
 # This need to be set to "True" when flask is behind a proxy like NGINX 
 PROXY         = False
